@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.title-link {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 25px;
+}
+
+nav .nav-item {
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+nav .active {
+  text-decoration: underline;
+}
+
+nav .nav-item:focus,
+nav .nav-item:hover {
+  color: grey;
+}
