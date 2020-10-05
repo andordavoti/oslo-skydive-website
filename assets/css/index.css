@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+hr {
+  width: 100vw;
+  color: lightgray;
+  border-top: 1px solid lightgray;
+  margin: 0;
+}

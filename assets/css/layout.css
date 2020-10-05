@@ -1,0 +1,37 @@
+.full-screen-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/main-image.jpg");
+  height: calc(100vh - 75px);
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-text-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 25px;
+}
+
+.image-text-section div {
+  width: 75%;
+  max-width: 400px;
+  padding: 25px;
+  padding-top: 0;
+}
+
+.image-text-section div h3 {
+  margin-top: 0;
+}
+
+.image-text-section img {
+  width: 75%;
+  max-width: 400px;
+  border-radius: 25px;
+}
