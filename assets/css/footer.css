@@ -1,6 +1,5 @@
 footer {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 25px 0;
@@ -21,7 +20,13 @@ footer .footer-item:hover {
   color: grey;
 }
 
-@media only screen and (max-width: 575px) {
+.social-icon img {
+  width: 25px;
+  height: 25px;
+  padding: 0 5px;
+}
+
+@media only screen and (max-width: 675px) {
   footer {
     flex-direction: column;
   }
