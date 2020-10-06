@@ -12,10 +12,13 @@
 
 .full-screen-image .more-info-button {
   border: 1px solid white;
-
   padding: 7px 15px;
   color: white;
   text-decoration: none;
+}
+
+.full-screen-image .more-info-button:hover {
+  background-color: white;
 }
 
 .full-screen-image .more-info-button:focus,
