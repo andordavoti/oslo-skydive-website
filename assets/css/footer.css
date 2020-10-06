@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  background-color: black;
+  width: 100vw;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: white;
+  padding: 0 25px;
+  font-size: 15px;
+}
+
+footer .footer-item:focus,
+footer .footer-item:hover {
+  color: grey;
+}
+
+@media only screen and (max-width: 575px) {
+  footer {
+    flex-direction: column;
+  }
+  .footer-item {
+    padding: 10px;
+  }
+}
