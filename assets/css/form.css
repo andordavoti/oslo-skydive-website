@@ -1,0 +1,36 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}

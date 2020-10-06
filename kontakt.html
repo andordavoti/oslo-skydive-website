@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/index.css" />
     <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
@@ -27,6 +27,48 @@
             </div>
           </nav>
         </div>
+      </div>
+
+      <div class="form-container">
+        <h3>Kontakt oss:</h3>
+        <form action="">
+          <div>
+            <label for="fname">Fornavn:</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Fornavnet ditt"
+            />
+          </div>
+
+          <div>
+            <label for="lname">Etternavn:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Etternavnet ditt"
+            />
+          </div>
+
+          <label for="inquiry">Hva gjelder det?</label>
+          <select id="inquiry" name="inquiry">
+            <option value="paragliding">Paragliding</option>
+            <option value="skydiving">Skydiving</option>
+            <option value="other">Annet</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Melding"
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </div>
 
