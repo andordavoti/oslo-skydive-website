@@ -57,3 +57,17 @@
   width: 100vw;
   padding-top: 25px;
 }
+
+.table-container table {
+  border-collapse: collapse;
+}
+
+.table-container table,
+th,
+td {
+  border: 1px solid lightgray;
+}
+
+.table-container table tr td {
+  padding: 10px;
+}
